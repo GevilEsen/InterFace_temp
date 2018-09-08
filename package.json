@@ -4,15 +4,30 @@
   "description": "",
   "main": "interface.js",
   "scripts": {
-    "test": "npm start"
+    "start": "node interface"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "js-sha3": "^0.7.0",
     "koa": "^2.5.1",
     "koa-body": "^4.0.4",
     "koa-bodyparser": "^4.2.1",
     "koa-cors": "0.0.16",
-    "koa-router": "^7.4.0"
+    "koa-mysql": "^1.0.3",
+    "koa-mysql-session": "0.0.2",
+    "koa-onerror": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-session": "^5.8.2",
+    "koa-session-minimal": "^3.0.4",
+    "koa-static": "^5.0.0",
+    "koa-static-plus": "^0.1.1",
+    "koa-view": "^2.1.1",
+    "koa2-cors": "^2.0.6",
+    "koa2-session-mysql": "^1.0.0",
+    "maptalks": "^0.41.1",
+    "mysql2": "^1.5.3",
+    "npm": "^6.4.1"
   }
 }
